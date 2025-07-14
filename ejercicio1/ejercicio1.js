@@ -2,7 +2,7 @@
 // mensaje si la persona es mayor de edad o no. Utilizar para la condición el operador ternario.
 
 function verificarEdad(edad) {
-const mensaje = edad >= 18 ? "Eres mayor de edad." : "Eres menor de edad.";
+const mensaje = edad >= 18 ? "Eres mayor de edad" : "Eres menor de edad";
 console.log(mensaje);
 }
 

@@ -12,5 +12,5 @@ function calcularNotaFinal(nombre, carnet, examen, tareas, asistencia, investiga
     console.log(`Carnet: ${carnet}`);
     console.log(`Nota Final: ${notaFinal.toFixed(2)}`);
 }
-// Ejemplo de uso
+
 calcularNotaFinal("Raul Eliasa", "123456", 9.2,8.7, 9.5, 8.6);
