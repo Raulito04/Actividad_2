@@ -22,10 +22,10 @@ function calcularDescuentoViaje(origen, destino) {
         mensaje = mensaje + `El descuento es del ${descuento}%.`;
         break;
       default:
-        mensaje = mensaje + "No hay descuento disponible para este destino desde Palma.";
+        mensaje = mensaje + "No hay descuento disponible para este destino desde Palma!!";
     }
   } else {
-    mensaje = mensaje + "No hay descuentos disponibles desde este origen.";
+    mensaje = mensaje + "No hay descuentos disponibles desde este origen!!!";
   }
 
   return mensaje;

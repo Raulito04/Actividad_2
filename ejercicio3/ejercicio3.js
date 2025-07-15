@@ -6,16 +6,16 @@ function calcularAumento(nombre, salario, categoria) {
     let aumento;
     switch (categoria) {
         case 'A':
-            aumento = salario * 0.15; // 10% de aumento
+            aumento = salario * 0.15;
             break;
         case 'B':
-            aumento = salario * 0.3; // 7% de aumento
+            aumento = salario * 0.3;
             break;
         case 'C':
-            aumento = salario * 0.1; // 5% de aumento
+            aumento = salario * 0.1;
             break;
         case 'D':
-            aumento = salario * 0.2; // 5% de aumento
+            aumento = salario * 0.2; 
             break;
         default:
             console.log("No existe esa categoria pana!");
