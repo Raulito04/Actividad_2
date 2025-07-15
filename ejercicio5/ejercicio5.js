@@ -13,25 +13,23 @@ function calcularDescuentoCoche() {
   let mensaje = "";
   let descuento = 0; // 
 
-  // Determinar el descuento según el coche seleccionado 
-  switch (cocheSeleccionado.toUpperCase()) {
+  switch (cocheSeleccionado) {
     case 'FORD FIESTA':
-      descuento = 5; // 5% 
+      descuento = 5;
       mensaje = `Has seleccionado ${cocheSeleccionado}. Se aplicará un ${descuento}% de descuento.`; // 
       break;
     case 'FORD FOCUS':
-      descuento = 10; // 10% [cite: 22]
+      descuento = 10;
       mensaje = `Has seleccionado ${cocheSeleccionado}. Se aplicará un ${descuento}% de descuento.`; // 
       break;
     case 'FORD ESCAPE':
-      descuento = 20; // 20% [cite: 22]
+      descuento = 20;
       mensaje = `Has seleccionado ${cocheSeleccionado}. Se aplicará un ${descuento}% de descuento.`; // 
       break;
     default:
       mensaje = "Por favor, selecciona un coche para ver el descuento."; // 
   }
 
-  // Mostrar el resultado en el HTML 
   resultado.textContent = mensaje;
 }
 
